@@ -6,7 +6,7 @@ public:
         for(int i=1;i<n;++i){
             if(p[i-1]<p[i]){
                 ans+=p[i]-p[i-1];
-                i++;
+                // i++;
             }
         }
         return ans;
