@@ -34,5 +34,5 @@ public:
          return solve(root,p,q);
     }
 };
-// T.C=O(n)
+// T.C=O(h) where h is the height of the binary tree 
 // S.C=O(1)
